@@ -4,7 +4,7 @@ This is Basic Quiz Application that has been develop using Flutter. This was rec
 
 ## Content
 
-There were 5 dart file where the every component has been split in order to demonstrate how widget word. The data has been pass using from on widget to another widget. Every data has been predifine in Arraylist/mapping where spesific answer will have spesific point. There were 3 questions, once user has finish answering the question. This App will display your result based on how much point your get. It just a basic apps, There was no UI styling has been done
+There were 5 dart file where the every component has been split in order to demonstrate how widget works. The data has been pass using from on widget to another widget. Every data has been predifine in Arraylist/mapping where spesific answer will have spesific point. There were 3 questions, once user has finish answering the question. This App will display your result based on how much point your get. It just a basic apps, There was no UI styling has been done
 
 ## Other
 
