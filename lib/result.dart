@@ -1,3 +1,4 @@
+//import material component
 import 'package:flutter/material.dart';
 
 class Result extends StatelessWidget {
@@ -16,6 +17,7 @@ class Result extends StatelessWidget {
     return resultText;
   }
 
+//Widget for display final result based on option choosed by user
   @override
   Widget build(BuildContext context) {
     return Center(

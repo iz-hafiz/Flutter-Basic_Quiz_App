@@ -1,5 +1,7 @@
+//import material component
 import 'package:flutter/material.dart';
 
+//import another widget in lib
 import './question.dart';
 import './answer.dart';
 
@@ -13,6 +15,8 @@ class Quiz extends StatelessWidget {
       @required this.answerQuestion,
       @required this.questionIndex});
 
+//widget for quiz builder.  Import Question widget to display question
+//This widget only works as holder and pass data to Answer widget
   @override
   Widget build(BuildContext context) {
     return Column(children: [

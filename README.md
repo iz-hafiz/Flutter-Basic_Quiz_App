@@ -1,8 +1,12 @@
-# flutter_tutorial_1
+# flutter_Basic_Quiz_Apps
 
-A new Flutter project.
+This is Basic Quiz Application that has been develop using Flutter. This was record by copy directly what in Udemy course that has been purchased.
 
-## Getting Started
+## Content
+
+There were 5 dart file where the every component has been split in order to demonstrate how widget word. The data has been pass using from on widget to another widget. Every data has been predifine in Arraylist/mapping where spesific answer will have spesific point. There were 3 questions, once user has finish answering the question. This App will display your result based on how much point your get. It just a basic apps, There was no UI styling has been done
+
+## Other
 
 This project is a starting point for a Flutter application.
 

@@ -1,3 +1,4 @@
+//import material component
 import 'package:flutter/material.dart';
 
 class Question extends StatelessWidget {
@@ -5,6 +6,7 @@ class Question extends StatelessWidget {
 
   Question(this.questionText);
 
+//widget for display question
   @override
   Widget build(BuildContext context) {
     return Container(

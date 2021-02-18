@@ -1,11 +1,14 @@
+//import material component
 import 'package:flutter/material.dart';
+//import another widget in lib
 import 'package:flutter_tutorial_1/result.dart';
-
 import './quiz.dart';
 import './result.dart';
 
+//Main method run when first load
 void main() => runApp(MyFirstApp());
 
+//
 class MyFirstApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -15,6 +18,7 @@ class MyFirstApp extends StatefulWidget {
 
 class _MyFirstAppState extends State<MyFirstApp> {
   //adding _anything cause it can't be acess by other dart file
+  //mapping list
   final _questions = [
     {
       'questionText': 'what\'s your favourite colour?',
@@ -68,6 +72,7 @@ class _MyFirstAppState extends State<MyFirstApp> {
     }
   }
 
+//widget content. All code has be create into widget and pass through into constructor
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

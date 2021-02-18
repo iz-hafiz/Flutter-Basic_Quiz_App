@@ -1,3 +1,4 @@
+//import material component
 import 'package:flutter/material.dart';
 
 class Answer extends StatelessWidget {
@@ -6,6 +7,7 @@ class Answer extends StatelessWidget {
 
   Answer(this.selectHandler, this.answerText);
 
+//Widget for selecting option UI
   @override
   Widget build(BuildContext context) {
     return Container(
